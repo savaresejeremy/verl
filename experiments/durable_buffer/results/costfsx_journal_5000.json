@@ -1,0 +1,23 @@
+{
+  "phase": "journal",
+  "objects": 5000,
+  "seed_traj_per_s": 79.6,
+  "tick_s_mean": 0.0584,
+  "tick_s_min": 0.0435,
+  "controller_pkl_MB": 0.15,
+  "manifest_MB": null,
+  "us_per_object": 11.67,
+  "provenance": {
+    "commit": "6cae67a7c9e17f0861a9bc63b826b17f90540d67",
+    "git_describe": "6cae67a7c9e1-dirty",
+    "dirty_paths": [
+      "<listing removed before publication: the recorder resolved an unrelated ancestor repository for git state during this cluster run, so this field enumerated a staging-tree file list rather than meaningful dirt; the commit and describe fields above are equally unreliable for this artifact family, and the measured values under 'result' are unaffected>"
+    ],
+    "harness_digest_sha256": "03b7ae0807099e4db682df1a04b169cfa3c217ccfee3883d79ee626b9694baba",
+    "python": "3.12.3",
+    "torch": "2.11.0+cu130",
+    "transfer_queue": "0.1.10.dev0",
+    "invocation": "/shared/fs/durable_buffer/verl-head/experiments/durable_buffer/bench_overhead.py --tag costfsx_journal_5000 --out /shared/fs/durable_buffer/bench_shared_fs/results --phase journal --objects 5000 --resp-len 256 --store /shared/fs/durable_buffer/bench_shared_fs/store --journal-root /shared/fs/durable_buffer/bench_shared_fs/journal --repeat 3",
+    "generated_at": "2026-08-23T04:07:03Z"
+  }
+}

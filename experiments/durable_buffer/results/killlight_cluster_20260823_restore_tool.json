@@ -1,0 +1,53 @@
+{
+  "status": "reconciled",
+  "dry_run": false,
+  "checkpoint_step_dir": "/shared/fs/durable_buffer/runs/dbuf-light1-b/ckpts/global_step_5",
+  "plan_available": true,
+  "detail": null,
+  "pending_transaction": null,
+  "would_heal_publication": false,
+  "would_complete_transaction": null,
+  "source_selection": "journal",
+  "source_journal": "/shared/fs/durable_buffer/runs/dbuf-light1-b/journal/journal-001",
+  "freshness": {
+    "journal_step": 7,
+    "ckpt_step": 5,
+    "journal_fence_ts": 1787454726.004504,
+    "ckpt_fence_ts": 1787454668.5691445
+  },
+  "tq_protocol_siblings": [],
+  "source_step": 7,
+  "fsck": {
+    "mode": "oplog",
+    "oplog_records_replayed": 6972,
+    "objects_listed": 4022,
+    "objects_statted": 0,
+    "expected_objects": 3680,
+    "fenced_objects": 3004,
+    "missing_objects": 2652,
+    "group_closure_objects": 676,
+    "dropped_samples": 128,
+    "dropped_by_partition": {
+      "train": 128
+    },
+    "prompts_dropped": 32,
+    "t_list_s": 0.0242,
+    "t_fence_s": 1.6591,
+    "t_drop_s": 3.2056,
+    "t_total_s": 4.8889,
+    "fence_ts": 1787454726.004504,
+    "t_load_checkpoint_s": 0.0051
+  },
+  "promotion": {
+    "promoted": [],
+    "partial_left_for_reissue": [],
+    "had_failures_left_for_reissue": [],
+    "skipped_unverifiable_n": [],
+    "skipped_no_durable_n": [],
+    "trajectories_rescued": 0
+  },
+  "removed_tq_protocol_siblings": [],
+  "wrote": "/shared/fs/durable_buffer/runs/dbuf-light1-b/ckpts/global_step_5/transfer_queue",
+  "dataloader_state": "journal",
+  "seconds": 19.07
+}

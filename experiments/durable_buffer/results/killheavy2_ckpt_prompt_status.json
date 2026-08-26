@@ -1,0 +1,20 @@
+{
+ "heavy2_today": {
+  "checkpoint": "/shared/fs/durable_buffer/runs/dbuf-heavy1/ckpts.pristine/global_step_5/transfer_queue/controller_state.pkl",
+  "tag_histogram": {
+   "prompt:finished": 32,
+   "trajectory:success": 512
+  },
+  "prompts_inflight_pending_or_running": 0,
+  "global_index_counter": 576
+ },
+ "light1_yesterday": {
+  "checkpoint": "/shared/fs/durable_buffer/runs/dbuf-light1/ckpts.pristine/global_step_5/transfer_queue/controller_state.pkl",
+  "tag_histogram": {
+   "prompt:running": 32,
+   "trajectory:success": 133
+  },
+  "prompts_inflight_pending_or_running": 32,
+  "global_index_counter": 320
+ }
+}

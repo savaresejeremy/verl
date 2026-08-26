@@ -1,0 +1,28 @@
+{
+  "phase": "fsck",
+  "mode": "oplog",
+  "store_objects": 20000,
+  "objects_listed": 20000,
+  "rto_init_s": 2.1,
+  "load_journal_s": 0.017,
+  "fsck_total_s": 1.7742,
+  "fsck_list_s": 0.1052,
+  "fsck_fence_s": 1.0251,
+  "fsck_drop_s": 0.6438,
+  "fenced_objects": 1000,
+  "dropped_samples": 500,
+  "ms_per_churned_record": 1.183,
+  "provenance": {
+    "commit": "6cae67a7c9e17f0861a9bc63b826b17f90540d67",
+    "git_describe": "6cae67a7c9e1-dirty",
+    "dirty_paths": [
+      "<listing removed before publication: the recorder resolved an unrelated ancestor repository for git state during this cluster run, so this field enumerated a staging-tree file list rather than meaningful dirt; the commit and describe fields above are equally unreliable for this artifact family, and the measured values under 'result' are unaffected>"
+    ],
+    "harness_digest_sha256": "03b7ae0807099e4db682df1a04b169cfa3c217ccfee3883d79ee626b9694baba",
+    "python": "3.12.3",
+    "torch": "2.11.0+cu130",
+    "transfer_queue": "0.1.10.dev0",
+    "invocation": "experiments/durable_buffer/bench_overhead.py --tag costfsx_fsck_20000 --out /shared/fs/durable_buffer/bench_shared_fs/results --store /shared/fs/durable_buffer/bench_shared_fs/store --journal-root /shared/fs/durable_buffer/bench_shared_fs/journal --phase fsck --objects 20000 --resp-len 256",
+    "generated_at": "2026-08-23T06:56:15Z"
+  }
+}

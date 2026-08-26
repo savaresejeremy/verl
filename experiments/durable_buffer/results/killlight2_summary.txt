@@ -1,0 +1,16 @@
+[drill 21:22:12] drill=dbuf-light2 rollout_n=4 resp_len=512 kill_at=7 total=14 save_freq=5
+[drill 21:22:16] phase1: job1 launched (pgid=337)
+[drill 21:29:29] phase1: step 7 reached -> kill -9 (process group 337)
+[drill 21:29:45] phase1: killed after step 7; ckpt=5; buffer_objects=3936
+[drill 21:29:49] phase1: checkpoint global_step_5 carries 32 in-flight (pending/running) prompt groups
+[drill 21:38:44] phase2 armA: rc=0 laststep=14 reissued=32 regenerated_objects=48192
+  "status": "reconciled",
+  "source_step": 7,
+    "fenced_objects": 2900,
+    "dropped_samples": 124,
+  "dataloader_state": "journal",
+  "seconds": 17.61,
+[drill 21:47:32] phase3 armB: rc=0 laststep=14 reissued=0 regenerated_objects=44864
+[drill 21:47:32] spans[dbuf-light2-a] first resumed step (6): trajectory_spans/mean:np.float64(1.0)
+[drill 21:47:32] spans[dbuf-light2-b] first resumed step (6): trajectory_spans/mean:np.float64(1.0)
+[drill 21:47:32] DRILL COMPLETE (all arms verified)

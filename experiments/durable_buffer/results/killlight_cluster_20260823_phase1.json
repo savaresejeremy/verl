@@ -1,0 +1,84 @@
+{
+ "run": "dbuf-light1",
+ "max_step": 7,
+ "reissued_lines": [],
+ "series": [
+  {
+   "step": 1,
+   "durable_buffer/journal_ticks": 80.0,
+   "durable_buffer/journal_mean_s": 0.0869,
+   "durable_buffer/journal_last_s": 0.0844,
+   "durable_buffer/journal_failures": 0.0,
+   "critic/rewards/mean": 0.0078125,
+   "timing_s/step": 36.42900652300159,
+   "training/off_policy/trajectory_spans/mean": 1.0,
+   "training/off_policy/trajectory_staleness/mean": 0.0
+  },
+  {
+   "step": 2,
+   "durable_buffer/journal_ticks": 88.0,
+   "durable_buffer/journal_mean_s": 0.1128,
+   "durable_buffer/journal_last_s": 1.6217,
+   "durable_buffer/journal_failures": 0.0,
+   "critic/rewards/mean": 0.0078125,
+   "timing_s/step": 12.934476385999005,
+   "training/off_policy/trajectory_spans/mean": 1.0,
+   "training/off_policy/trajectory_staleness/mean": 1.0
+  },
+  {
+   "step": 3,
+   "durable_buffer/journal_ticks": 95.0,
+   "durable_buffer/journal_mean_s": 0.243,
+   "durable_buffer/journal_last_s": 11.4798,
+   "durable_buffer/journal_failures": 0.0,
+   "critic/rewards/mean": 0.0234375,
+   "timing_s/step": 13.798939515007078,
+   "training/off_policy/trajectory_spans/mean": 1.984375,
+   "training/off_policy/trajectory_staleness/mean": 0.015625
+  },
+  {
+   "step": 4,
+   "durable_buffer/journal_ticks": 102.0,
+   "durable_buffer/journal_mean_s": 0.3577,
+   "durable_buffer/journal_last_s": 10.8091,
+   "durable_buffer/journal_failures": 0.0,
+   "critic/rewards/mean": 0.0234375,
+   "timing_s/step": 13.101689570990857,
+   "training/off_policy/trajectory_spans/mean": 1.9765625,
+   "training/off_policy/trajectory_staleness/mean": 0.0234375
+  },
+  {
+   "step": 5,
+   "durable_buffer/journal_ticks": 109.0,
+   "durable_buffer/journal_mean_s": 0.452,
+   "durable_buffer/journal_last_s": 10.9066,
+   "durable_buffer/journal_failures": 0.0,
+   "critic/rewards/mean": 0.03125,
+   "timing_s/step": 15.232981132008717,
+   "training/off_policy/trajectory_spans/mean": 1.984375,
+   "training/off_policy/trajectory_staleness/mean": 0.015625
+  },
+  {
+   "step": 6,
+   "durable_buffer/journal_ticks": 117.0,
+   "durable_buffer/journal_mean_s": 0.526,
+   "durable_buffer/journal_last_s": 10.2369,
+   "durable_buffer/journal_failures": 0.0,
+   "critic/rewards/mean": 0.0234375,
+   "timing_s/step": 13.068299667007523,
+   "training/off_policy/trajectory_spans/mean": 1.9609375,
+   "training/off_policy/trajectory_staleness/mean": 0.0390625
+  },
+  {
+   "step": 7,
+   "durable_buffer/journal_ticks": 124.0,
+   "durable_buffer/journal_mean_s": 0.6008,
+   "durable_buffer/journal_last_s": 11.0872,
+   "durable_buffer/journal_failures": 0.0,
+   "critic/rewards/mean": 0.0234375,
+   "timing_s/step": 13.227869514987106,
+   "training/off_policy/trajectory_spans/mean": 1.984375,
+   "training/off_policy/trajectory_staleness/mean": 0.015625
+  }
+ ]
+}

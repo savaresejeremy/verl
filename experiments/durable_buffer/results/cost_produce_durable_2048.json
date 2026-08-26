@@ -1,0 +1,27 @@
+{
+  "phase": "produce",
+  "backend": "durable",
+  "trajectories": 4000,
+  "resp_len": 2048,
+  "seconds": 1.431,
+  "traj_per_s": 2796.0,
+  "put_ms_per_traj_mean": 0.357,
+  "read_rewards_batch_ms": 36.55,
+  "store_objects": 8000,
+  "store_MB": 66.0,
+  "provenance": {
+    "commit": "dabcf10bad7a627a42aabbc01826bdb090704bf7",
+    "git_describe": "dabcf10bad7a",
+    "dirty_paths": [
+      "experiments/durable_buffer/results/cost_produce_durable_512.json",
+      "experiments/durable_buffer/results/cost_produce_memory_2048.json",
+      "experiments/durable_buffer/results/cost_produce_memory_512.json"
+    ],
+    "harness_digest_sha256": "096603b11df3966519110d8be3a3cfc8b1194c80bd84d6a6045d862a38f5d927",
+    "python": "3.12.13",
+    "torch": "2.13.0+cpu",
+    "transfer_queue": "0.1.10.dev0",
+    "invocation": "/tmp/vrb-public/experiments/durable_buffer/bench_overhead.py --tag cost_produce_durable_2048 --out experiments/durable_buffer/results --phase produce --backend durable --trajectories 4000 --resp-len 2048 --store /tmp/db_overhead_store",
+    "generated_at": "2026-08-26T21:30:53Z"
+  }
+}

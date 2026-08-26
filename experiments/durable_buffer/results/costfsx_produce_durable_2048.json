@@ -1,0 +1,25 @@
+{
+  "phase": "produce",
+  "backend": "durable",
+  "trajectories": 4000,
+  "resp_len": 2048,
+  "seconds": 45.984,
+  "traj_per_s": 87.0,
+  "put_ms_per_traj_mean": 11.492,
+  "read_rewards_batch_ms": 717.51,
+  "store_objects": 8000,
+  "store_MB": 66.0,
+  "provenance": {
+    "commit": "6cae67a7c9e17f0861a9bc63b826b17f90540d67",
+    "git_describe": "6cae67a7c9e1-dirty",
+    "dirty_paths": [
+      "<listing removed before publication: the recorder resolved an unrelated ancestor repository for git state during this cluster run, so this field enumerated a staging-tree file list rather than meaningful dirt; the commit and describe fields above are equally unreliable for this artifact family, and the measured values under 'result' are unaffected>"
+    ],
+    "harness_digest_sha256": "03b7ae0807099e4db682df1a04b169cfa3c217ccfee3883d79ee626b9694baba",
+    "python": "3.12.3",
+    "torch": "2.11.0+cu130",
+    "transfer_queue": "0.1.10.dev0",
+    "invocation": "/shared/fs/durable_buffer/verl-head/experiments/durable_buffer/bench_overhead.py --tag costfsx_produce_durable_2048 --out /shared/fs/durable_buffer/bench_shared_fs/results --phase produce --backend durable --trajectories 4000 --resp-len 2048 --store /shared/fs/durable_buffer/bench_shared_fs/store",
+    "generated_at": "2026-08-23T04:05:56Z"
+  }
+}

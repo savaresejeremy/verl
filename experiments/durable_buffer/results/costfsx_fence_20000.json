@@ -1,0 +1,31 @@
+{
+  "objects_requested": 20000,
+  "objects_on_disk": 20000,
+  "trajectories_seeded": 10000,
+  "resp_len": 256,
+  "repeat": 3,
+  "tick_s_mean": 0.0936,
+  "tick_s_min": 0.0764,
+  "fence_offsets_s_mean": 0.0162,
+  "fence_offsets_s_min": 0.0145,
+  "manifest_full_s_mean": 8.1234,
+  "manifest_full_s_min": 6.5131,
+  "manifest_rows": 20000,
+  "manifest_MB": 1.128,
+  "manifest_over_offsets": 500.8,
+  "manifest_over_tick": 86.8,
+  "us_per_manifest_row": 406.2,
+  "provenance": {
+    "commit": "6cae67a7c9e17f0861a9bc63b826b17f90540d67",
+    "git_describe": "6cae67a7c9e1-dirty",
+    "dirty_paths": [
+      "<listing removed before publication: the recorder resolved an unrelated ancestor repository for git state during this cluster run, so this field enumerated a staging-tree file list rather than meaningful dirt; the commit and describe fields above are equally unreliable for this artifact family, and the measured values under 'result' are unaffected>"
+    ],
+    "harness_digest_sha256": "03b7ae0807099e4db682df1a04b169cfa3c217ccfee3883d79ee626b9694baba",
+    "python": "3.12.3",
+    "torch": "2.11.0+cu130",
+    "transfer_queue": "0.1.10.dev0",
+    "invocation": "experiments/durable_buffer/bench_fence_modes.py --objects 20000 --tag costfsx --out /shared/fs/durable_buffer/bench_shared_fs/results --store /shared/fs/durable_buffer/bench_shared_fs/fence_store --journal-root /shared/fs/durable_buffer/bench_shared_fs/fence_journal",
+    "generated_at": "2026-08-23T06:37:46Z"
+  }
+}

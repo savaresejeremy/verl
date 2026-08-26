@@ -1,0 +1,69 @@
+2026-08-23 21:39:45,980	INFO worker.py:2024 -- Started a local Ray instance.
+2026-08-23 21:39:57,421 - WARNING - transfer_queue.interface - close for _TQ_STORAGE with key DurableFS is not supported for now.
+WARNING:2026-08-23 21:39:57,421:close for _TQ_STORAGE with key DurableFS is not supported for now.
+{
+  "status": "reconciled",
+  "dry_run": false,
+  "checkpoint_step_dir": "/shared/fs/durable_buffer/runs/dbuf-light2-b/ckpts/global_step_5",
+  "plan_available": true,
+  "detail": null,
+  "pending_transaction": null,
+  "would_heal_publication": false,
+  "would_complete_transaction": null,
+  "source_selection": "journal",
+  "source_journal": "/shared/fs/durable_buffer/runs/dbuf-light2-b/journal/journal-001",
+  "journal_slot_request": null,
+  "journal_slots": [
+    "/shared/fs/durable_buffer/runs/dbuf-light2-b/journal/journal-001",
+    "/shared/fs/durable_buffer/runs/dbuf-light2-b/journal/journal-000",
+    "/shared/fs/durable_buffer/runs/dbuf-light2-b/journal/journal-002"
+  ],
+  "source_slot_rejections": [],
+  "freshness": {
+    "journal_step": 7,
+    "ckpt_step": 5,
+    "journal_fence_ts": 1787520554.674853,
+    "ckpt_fence_ts": 1787520492.606642
+  },
+  "tq_protocol_siblings": [],
+  "source_step": 7,
+  "fsck": {
+    "mode": "oplog",
+    "oplog_records_replayed": 6868,
+    "objects_listed": 3936,
+    "objects_statted": 0,
+    "expected_objects": 3680,
+    "fenced_objects": 2900,
+    "missing_objects": 2548,
+    "group_closure_objects": 676,
+    "dropped_samples": 124,
+    "dropped_by_partition": {
+      "train": 124
+    },
+    "prompts_dropped": 31,
+    "t_list_s": 0.023,
+    "t_fence_s": 1.7697,
+    "t_drop_s": 3.7227,
+    "t_total_s": 5.5154,
+    "fence_ts": 1787520554.674853,
+    "t_load_checkpoint_s": 0.0053
+  },
+  "promotion": {
+    "promoted": [],
+    "partial_left_for_reissue": [],
+    "had_failures_left_for_reissue": [],
+    "skipped_unverifiable_n": [],
+    "skipped_no_durable_n": [],
+    "trajectories_rescued": 0
+  },
+  "removed_tq_protocol_siblings": [],
+  "wrote": "/shared/fs/durable_buffer/runs/dbuf-light2-b/ckpts/global_step_5/transfer_queue",
+  "dataloader_state": "journal",
+  "seconds": 17.61,
+  "checkpoint_tq_present": true,
+  "controller_probe": {
+    "discovered": [],
+    "answered": {},
+    "outcome": "no cluster address discovered, so no controller can be reachable"
+  }
+}
